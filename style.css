@@ -79,19 +79,57 @@ html {
     gap: 5em;
 
 }
-.temporal{
+
+.temporal {
     width: 100%;
     background-color: rgb(245, 245, 253);
     height: 12em;
     text-align: center;
 }
-.skill-icons{
+
+.skill-icons {
     margin-bottom: 2em;
     width: 5em;
 }
-.skill-icons:hover{
-    padding:5px 5px;
+
+.skill-icons:hover {
+    padding: 5px 5px;
     border-radius: 5px;
     box-shadow: 1px 2px 10px rgba(171, 178, 209, 1);
 }
 
+/* Cards */
+.cards {
+    margin-top: 10em;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+    border-radius: 5px;
+    box-shadow: 1px 2px 10px rgba(171, 178, 209, 1);
+    height: 15em;
+
+}
+
+.card-header {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.card-header>img {
+    border-radius: 5px;
+    max-width: 100%;
+    width: 15em;
+}
